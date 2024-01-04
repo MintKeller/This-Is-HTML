@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Attributes</title>
+</head>
+<body>
+    <h1>HTML Attributes</h1>
+    <p>HTML attributes provide additional information about HTML elements.</p>
+    <ul>
+        <li>All HTML elements can have <strong>attributes</strong></li>
+        <li>Attributes provide <strong>additional information</strong> about elements</li>
+        <li>Attributes are always specified in a <strong>the start tag</strong></li>
+        <li>Attributes usually come in name/value pairs like: <strong>name="value"</strong></li>
+    </ul>
+    <h2>The href Attribute</h2>
+    <p>The &lt;a&lg; tag defines a hyperlink. The <mark>href</mark> attribute specifies the URL of the page the link goes to:</p>
+
+    <pre>
+        <code>
+            &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;&frasl;a&gt;
+        </code>
+    </pre>
+
+    <h2>The src Attribute</h2>
+    <p>The <mark>&lt;img&gt;</mark> tag is used to embed an image in an HTML page. The <mark>src</mark> attribute specifies the path to the image to be displayed:</p>
+    
+    <pre>
+        <code>
+            &lt;img src="img_girl.jpg"&gt;
+        </code>
+    </pre>
+
+    <p>There are two ways to specify the URL in the <mark>src</mark> attribute:</p>
+    <p> <strong>1. Absolute URL</strong> - Links to an external image that is hosted on another website. <br>Example: src="https://www.w3schools.com/images/img_girl.jpg".</p>
+    <p><strong>Notes:</strong> External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</p>
+    <p><strong>2. Relative URL</strong> - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. <br>Example: src="img_girl.jpg". <br> If the URL begins with a slash, it will be relative to the domain. <br> Example: src="/images/img_girl.jpg".</p>
+    <p><strong>Tip:</strong> It is almost always best to use relative URLs. They will not break if you change domain.</p>
+
+    <h2>The width and height Attributes</h2>
+    <p>The <mark>&lt;img&gt;</mark> tag should also contain the <mark>width</mark> and <mark>height </mark>, which specify the width and height of the image (in pixels):</p>
+
+    <pre>
+        <code>
+            &lt;img src="img_girl.jpg" width="500" height="600"&gt;
+        </code>
+    </pre>
+
+    <h2>The alt Attribute</h2>
+    <p>The required <mark>alt</mark> attribute for the <mark>&lt;img&gt;</mark> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.</p>
+
+    <pre>
+        <code>
+            &lt;img src="img_girl.jpg" alt="Girl with a jacket"&gt;
+        </code>
+    </pre>
+
+    <h2>The style Attribute</h2>
+    <p>The <mark>style</mark> attribute is used to add styles to an element, such as color, font, size, and more.</p>
+
+    <pre>
+        <code>
+            &lt;p style="color:red;"&gt;This is a red paragraph.&lt; &frasl;p&gt;
+        </code>
+    </pre>
+
+    <h2>The lang Attribute</h2>
+    <p>You should always include the <mark>lang</mark> attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.</p>
+
+    <pre>
+        <code>
+            &lt;&excl;DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;body&gt;
+                ...
+            &lt;&frasl;body&gt;
+            &lt;&frasl;html&gt;
+        </code>
+    </pre>
+
+    <p>Country codes can also be added to the language code in the <mark>lang</mark> attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.</p>
+
+    <pre>
+        <code>
+            &lt;html lang="en-US"&gt;
+        </code>
+    </pre>
+
+    <h2>The title Attribute</h2>
+    <p>The <mark>title </mark> defines some extra information about an element. <br>The value of the title attribute will be displayed as a tooltip when you mouse over the element:</p>
+
+    <pre>
+        <code>
+            &lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt; &frasl;p&gt;
+        </code>
+    </pre>
+
+    <p title="Great Look!!"> Take a look!</p>
+
+    <h2>Single or Double Quotes?</h2>
+    <p>Double quotes around attribute values are the most common in HTML, but single quotes can also be used.</p>
+
+    <p>In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:</p>
+
+    <pre>
+        <code>
+            &lt;p title='John "ShotGun" Nelson'&gt;
+        </code>
+    </pre>
+
+    <p>Or vice versa:</p>
+
+    <pre>
+        <code>
+            &lt;p title="John 'ShotGun' Nelson"&gt;
+        </code>
+    </pre>
+
+    <h1> Chapter Summary</h1>  &lt; &gt;
+
+    <ul>
+        <li>All HTML elements can have <strong> attributes</strong></li>
+        <li>The <mark>href</mark> attribute of &lt;a&lg; specifies the URL of the page the link goes to</li>
+        <li>The <mark>src</mark> attribute of &lt; img &gt; specifies the path to the image to be displayed</li>
+        <li>The <mark>width</mark> and <mark>height</mark> attributes of &lt; img &gt; provide size information for images</li>
+        <li>The <mark>alt</mark> attribute of &lt; img &gt; provides an alternate text for an image</li>
+        <li>The <mark>style</mark>attribute is used to add styles to an element, such as color, font, size, and more</li>
+        <li>The <mark>lang</mark> attribute of the &lt; html &gt; tag declares the language of the Web page</li>
+        <li>The <mark>title</mark> attribute defines some extra information about an element</li>
+    </ul>
+
+
+
+    <h1>TAKE A ETERNAL LOOK HERE TOO!</h1>
+    <a href="https://www.w3schools.com/tags/ref_attributes.asp" title="good luck ;p">Click Here</a>
+
+
+
+
+
+
+
+
+</body>
+</html>
