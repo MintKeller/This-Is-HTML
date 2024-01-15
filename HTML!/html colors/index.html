@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Colors</title>
+    <style>
+        .colors{ 
+            display: flex;
+            flex-direction: row;
+        }
+     
+        .link:hover { 
+          /*text-decoration: underline;*/
+          border-bottom: 2px solid rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>HTML Colors</h1>
+    <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
+    
+    <h2>Color Names</h2>
+    <p>In HTML, a color can be specified by using a color name:</p>
+
+    <DIV class="colors"> 
+        <div style="background-color: tomato; height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium; color: white;">TOMATO</h3>
+    
+        </div>
+    
+        <div style="background-color: orange;  height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium;color: white;">ORANGE</h3>
+    
+        </div>
+    
+        <div style="background-color: dodgerblue; height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px; ">
+    
+            <h3 style="font-size: medium; color: white;">DODGERBLUE</h3>
+    
+        </div>
+    
+        <div style="background-color: mediumseagreen;  height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium; color: white;">MEDIUMSEAGREEN</h3>
+    
+        </div>
+    
+    </DIV>
+    
+    <br>
+    
+     <DIV class="colors">
+        <div style="background-color: gray; height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px; ">
+    
+            <h3 style="font-size: medium; color: white;">GRAY</h3>
+    
+        </div>
+    
+        <div style="background-color: slateblue; height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium; color: white;">SLATEBLUE</h3>
+    
+        </div>
+    
+        <div style="background-color: violet; height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium; color: white;">VIOLET</h3>
+    
+        </div>
+    
+        <div style="background-color: lightgray;  height: 80px; width: 200px; text-align: center; padding-top: 35px; margin: 10px;">
+    
+            <h3 style="font-size: medium; color: white;">LIGHTGRAY</h3>
+    
+        </div>
+    </DIV>
+    
+
+    <p>HTML supports 140 <a href="https://www.w3schools.com/colors/colors_names.asp">>standard color names.</a></p>
+
+    <h2>Background Color</h2>
+    <p>You can set the background color for HTML elements:</p>
+    <h3 style="background-color: dodgerblue; color:white;  text-align: center; width: 250px; height: 30px; padding: 15px; margin: 0 auto;">Hello World!</h3>
+    <p style="background-color:tomato;color:white; text-align: justify ;  width: 250px; height: 150px; padding: 15px; margin: 0 auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum non hic, id deserunt qui magnam perferendis vero dignissimos quos nisi optio, animi officiis sit voluptatum odit. Temporibus, voluptates consectetur!</p>
+    
+    <h2>Text Color</h2>
+    <p>You can set the color of text: </p>
+    <h3 style="color:Tomato;">Hello World</h3>
+    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+    <h2>Border Color</h2>
+    <p>You can set the color of borders:</p>
+    <h1 style="border: 2px solid Tomato;">Hello World</h1>
+    <h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border: 2px solid Violet;">Hello World</h1>
+
+    <h1>Color Values</h1>
+    <p>In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.</p>
+    <p>The following three &lt;h1&gt; elements have their background color set with RGB, HEX, and HSL values:</p>
+    <p>Same as color name "Tomato":</p>
+
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+    
+    <p>Same as color name "Tomato", but 50% transparent:</p>
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+    
+    <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+    <DIV class="colors" style="justify-content: center;"> 
+        <div style="width: 200px; height: 80px; background-color: gray ; padding: 10px; margin: 10px;">
+            <h1 class="link" style="text-align: center;"> <a  style="color: white; text-decoration: none;" href="RBG and RBGA/index.html"> RGB</a></h1>       
+        </div>
+    
+        <div style="width: 200px; height: 80px; background-color: gray ; padding: 10px; margin: 10px;">
+           
+    <h1 class="link" style="text-align: center;"> <a  style="color: white; text-decoration: none;" href=""> HEX</a></h1> 
+        </div>
+    
+        <div style="width: 200px; height: 80px; background-color: gray ; padding: 10px; margin: 10px;">
+            
+    <h1  class="link" style="text-align: center;"> <a  style="color: white; text-decoration: none; " href=""> HSL</a></h1>
+        </div>
+    
+    
+    </DIV>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
