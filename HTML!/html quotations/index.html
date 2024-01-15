@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Quotations and Citations</title>
+</head>
+<body>
+    <h1>HTML Quotation and Citation Elements</h1>
+    <p>In this chapter we will go through the <mark>&lt;blockquote&gt;</mark>,<mark>&lt;q&gt;</mark>, <mark>&lt;abbr&gt;</mark>, <mark>&lt;address&gt;</mark>, <mark>&lt;cite&gt;</mark>, and <mark>&lt;bdo&gt; </mark> elements.</p>
+
+    <h2>HTML <mark>&lt;blockquote&gt;</mark> for Quotations</h2>
+    <p>The HTML <mark>&lt;blockquote&gt;</mark> element defines a section that is quoted from another source. Browsers usually indent <mark>&lt;blockquote&gt;</mark> elements.</p>
+    
+    <pre>
+        <code>
+            &lt;p&gt;Here is a quote from WWF's website: &lt;&frasl;p &gt;
+            &lt;blockquote cite="http://www.worldwildlife.org/who/index.html"&gt;
+                For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+                &lt; &frasl;blockquote &gt;
+        </code>
+    </pre>
+
+    <h2>HTML &lt;q&gt; for Short Quotations</h2>
+    <p>The HTML <mark>&lt;q&gt;</mark> tag defines a short quotation. Browsers normally insert quotation marks around the quotation.</p>
+
+    <pre>
+        <code>
+            &lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt; &frasl;q&gt;&lt;&frasl;p &gt;
+
+        </code>
+    </pre>
+
+    <h2>HTML &lt;abbr&gt; for Abbreviations</h2>
+    <p>The HTML <mark>&lt;abbr&gt;</mark>tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p>
+    <p>Marking abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+    <p> <strong>Tip:</strong> Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. </p>
+
+    <pre>
+        <code>
+            &lt;p&gt;The &lt;abbr title="World Health Organization"&gt;WHO&lt; &frasl;abbr&gt; was founded in 1948.&lt;&frasl;p &gt;
+        </code>
+    </pre>
+
+
+    <h2>HTML &lt;address&gt; for Contact Information</h2>
+    <p>The HTML <mark>&lt;address&gt;</mark> tag defines the contact information for the author/owner of a document or an article.</p>
+    <p>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.</p>
+    <p>The text in the <mark>&lt;address&gt;</mark> element usually renders in italic, and browsers will always add a line break before and after the <mark>&lt;address&gt;</mark>element./p>
+
+    <pre>
+        <code>
+            &lt;address&gt;
+                Written by John Doe.&lt;br&gt;
+                Visit us at:&lt;br&gt;
+                Example.com&lt;br&gt;
+                Box 564, Disneyland&lt;br&gt;
+                USA
+            &lt; &frasl;address&gt;
+        </code>
+    </pre>
+
+    <h2>HTML &lt;cite&gt; for Work Title</h2>
+    <p>The HTML <mark>&lt;cite&gt;</mark> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</p>
+    <p> <strong>Note:</strong> A person's name is not the title of a work.</p>
+    <p> The text in the <mark>&lt;cite&gt;</mark>element usually renders in <i>italic</i>.</p>
+
+    <pre>
+        <code>
+            &lt;p&gt;&lt;cite&gt;The Scream&lt;&frasl;cite&gt; by Edvard Munch. Painted in 1893.&lt;&frasl;p&gt;
+        </code>
+    </pre>
+
+    <h2>HTML &lt;bdo&gt; for Bi-Directional Override</h2>
+    <p>BDO stands for Bi-Directional Override.</p>
+    <p>The HTML <mark>&lt;bdo&gt;</mark> tag is used to override the current text direction:</p>
+
+    <pre>
+        <code>
+            &lt;bdo dir="rtl"&gt;This text will be written from right to left&lt;&frasl;bdo&gt;
+        </code>
+    </pre>
+
+    <table border="1">
+        <tr>
+            <td>Tag</td>
+            <td>Description</td>
+        </tr>
+
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_abbr.asp">&lt;abbr&gt;</a></code></td>
+            <td>Defines an abbreviation or acronym</td>
+        </tr>
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_address.asp">&lt;address&gt;</a></code></td>
+            <td>Defines contact information for the author/owner of a document</td>
+        </tr>
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_bdo.asp">&lt;bdo&gt;</a></code></td>
+            <td>Defines the text direction</td>
+        </tr>
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_blockquote.asp">&lt;blockquote &gt;</a></code></td>
+            <td>Defines a section that is quoted from another source</td>
+        </tr>
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_cite.asp">&lt;cite&gt;</a></code></td>
+            <td>Defines the title of a work</td>
+        </tr>
+        <tr>
+            <td><code><a href="https://www.w3schools.com/tags/tag_q.asp">&lt;q&gt;</a></code></td>
+            <td>Defines a short inline quotation</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
