@@ -1,1 +1,146 @@
-oie
+Questão 1. Sendo P a proposição Zezinho é gaúcho e Q a proposição Luizinho é nordestino, traduzir para a linguagem corrente as seguintes proposições: 
+
+P = Zezinho é gaúcho 
+Q = Luizinho é nordestino
+
+
+a) ¬P
+
+ //Zezinho não é gaúcho. 
+ 
+b) P ∧ Q
+
+//Zezinho é gaúcho e Luizinho é nordestino.
+//Zezinho é gaúcho mas Luizinho é nordestino.
+
+c) P ∨ Q
+
+//Zezinho é gaúcho ou Luizinho é nordestino. 
+
+d) ¬ Q ∨ P
+
+//Luizinho não é gaúcho ou Luizinho é nordestino 
+
+e) Q → P
+
+//Se Luizinho é nordestino então Zezinho é gaúcho.
+
+f) P → ¬Q
+
+// Se Zeziho é gaúcho então Luizinho não é nordestino. 
+
+g) ¬P ↔ ¬Q
+
+// Zezinho não é gaúcho se e somente se Luizinho não é nordestino. 
+
+Questão 2. Sendo P a proposição Mariazinha fala inglês e Q a proposição Huguinho fala francês traduzir
+para a linguagem simbólica as seguintes proposições:
+
+P = Mariazinha fala inglês. 
+Q = Huguinho fala francês.
+
+a) Mariazinha fala inglês e Huguinho fala francês.
+
+//P ^ Q
+
+b) Mariazinha não fala inglês ou Huguinho fala francês.
+
+//P v Q
+
+c) Se Huguinho fala francês então Mariazinha fala inglês.
+
+//Q → P
+
+d) Mariazinha não fala inglês e Huguinho não fala francês.
+
+// ¬P ^ ¬Q
+
+Questão 3. Seja P a proposição "Está frio", Q a proposição "Está chovendo", R a proposição "Mariazinha
+é rica"e S a proposição "Joãozinho é feliz"Traduzir, para a linguagem corrente, as seguintes proposições:
+P = Está frio 
+Q = Está chovendo
+R = Mariazinha é rica
+S = Joãozinho é feliz
+
+a) ¬ P 
+
+//Não está frio
+
+b) P ∧ Q
+
+//Está frio  e  Está chovendo
+
+c) P ∨ Q
+
+//Está chovendo ou Está frio 
+
+d) Q ↔ P
+
+//Se Está frio  então está chovendo.
+
+e) P → ¬Q
+
+//Se Está chovendo então não está frio 
+
+f) Q ∨ ¬P
+
+//Está frio e não está chovendo
+
+g) ¬P ∧ ¬Q
+
+//Não está frio e não está chovendo.
+
+h) ¬¬Q
+
+// Está chovendo. 
+
+i) R ∨ S
+
+//Mariazinha é rica ou Joãozinho é feliz. 
+
+j) S → R
+
+//Se Joãozinho é feliz então Mariazinha é rica. 
+
+k) R ∨ ¬S
+
+//Mariazinha é rica ou Joãozinho não é feliz. 
+
+l) S ↔ ¬R
+
+//Joãzinho é feliz se e somente se Mariazinha não é rica. 
+
+m) ¬R → S
+
+//Se Mariazinha não é rica então Joãozinho é feliz. 
+
+n) (¬R ∧ S) → R
+
+//Se Mariazinha não é rica e Joãozinho é feliz então Mariazinha é rica.
+
+Questão 4. Determinar o valor lógico (V ou F) de cada uma das seguintes proposições compostas:
+a) Se 2 + 2 = 5, então 3 + 3 = 6
+b) Não é verdade que 2+ 2 = 6 se e somente se 4+ 4 = 9
+c) Dante escreveu os Lusíadas ou 5 + 7 < 2
+d) Não é verdade que 1 + 1 = 3 ou 20 = 1
+e) É falso que, se Lisboa é a capital da França, então Brasília é a capital da Argentina.
+f) (8 > 2) ∧ (4 ≤ 4)
+g) (6 < 10) ∧ (6 > 3/2)
+h) (6 < 2) ∨ ((4 − 3) ≥ 1)
+i) (5 > 8) ∧ (4 > 3)
+j) (4 < 2) ∨ (2 < 4)
+k) (8 − 3 = 5) → (2 ≤ 2)
+l) (8 > 10) → (6 − 2 = 4)
+m) (8 > 10) → (6 < 5)
+n) (4 < 2) ↔ (8 − 2 = 15) 
+
+
+
+
+
+
+
+
+
+
+
